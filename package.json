@@ -1,0 +1,20 @@
+{
+  "name": "hw19_promise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "build": "babel src -d build"
+  },
+  "author": "YB",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.22.6",
+    "@babel/core": "^7.22.8",
+    "@babel/preset-env": "^7.22.7"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
